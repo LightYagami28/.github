@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Domande e proposte
+    url: https://github.com/LightYagami28/.github/blob/main/SUPPORT.md
+    about: Per le domande generiche usa la scheda Discussions del repository (vedi SUPPORT)
+  - name: Segnalazioni di sicurezza
+    url: https://github.com/LightYagami28/.github/blob/main/SECURITY.md
+    about: Non aprire una issue pubblica, segui la procedura di SECURITY
