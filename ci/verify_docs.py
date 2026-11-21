@@ -9,7 +9,7 @@ required = [
     "README.md", "LICENSE", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md",
     "SECURITY.md", "SUPPORT.md", "CHANGELOG.md", "CITATION.cff",
 ]
-mancanti = [f for f in required if not (root / f).is_file() or (root / f).stat().st_size == 0]
+mancanti = [f for f in required if not (root / f).is_file() or not (root / f).stat().st_size]
 if mancanti:
     sys.exit("File mancanti o vuoti: " + ", ".join(mancanti))
 
