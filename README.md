@@ -1,6 +1,5 @@
 # File predefiniti della community
 
-[![CI][ci-badge]][ci-url]
 [![Licenza][license-badge]][repo-url]
 [![Stelle][stars-badge]][repo-url]
 
@@ -25,8 +24,6 @@ questo.
 
 Le licenze non si ereditano: ogni repository ha la propria.
 
-[ci-badge]: https://github.com/LightYagami28/.github/actions/workflows/ci.yml/badge.svg
 [license-badge]: https://img.shields.io/github/license/LightYagami28/.github
 [stars-badge]: https://img.shields.io/github/stars/LightYagami28/.github
-[ci-url]: https://github.com/LightYagami28/.github/actions/workflows/ci.yml
 [repo-url]: https://github.com/LightYagami28/.github
